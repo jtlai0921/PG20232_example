@@ -1,0 +1,1 @@
+print rand() . "\n";print rand() . "\n";srand(7);print rand() . "\n";srand(7);print rand() . "\n";

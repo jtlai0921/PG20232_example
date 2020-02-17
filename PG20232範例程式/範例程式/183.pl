@@ -1,0 +1,1 @@
+%a = ("1"=>"one", "2"=>"two", "3"=>"three");while(($k, $v) = each %a){    print "$k:$v ";}@b = keys %a;print "\n\n鍵一覽表\n";print join(" ", @b);@b = values %a;print "\n\n值一覽表\n";print join(" ", @b);print "\n\n";@b = ("0", "1", "one");foreach(@b){    if(exists $a{$_}){        print "$_是鍵。\n";    }else{        print "$_不是鍵。\n";    }}

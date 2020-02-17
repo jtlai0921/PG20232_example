@@ -1,0 +1,1 @@
+$a = "One, Two, Three";print "變更前：$a\n";print "\n小寫變換成大寫。\n";if($a =~ tr/a-z/A-Z/){   print "變更後：$a\n";}else{   print "無小寫。\n";}

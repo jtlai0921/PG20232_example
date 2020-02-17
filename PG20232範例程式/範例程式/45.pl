@@ -1,0 +1,1 @@
+%numstr = ("one" => "¤@", "two" => "¤G");$numstr{"three"} = "¤T";print $numstr{"one"} . $numstr{"two"} . $numstr{"three"} . "\n";delete $numstr{"one"};print $numstr{"one"} . $numstr{"two"} . $numstr{"three"} . "\n";

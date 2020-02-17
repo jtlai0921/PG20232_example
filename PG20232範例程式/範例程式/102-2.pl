@@ -1,0 +1,1 @@
+@strs = ("a123456", "ab", "aaaaaa", "123456");foreach(@strs){    if(/^[a-zA-Z]\w{2,7}$/){        print "$_: OK\n";    }else{        print "$_: 形式不正確。\n";    }}

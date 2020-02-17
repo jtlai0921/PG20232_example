@@ -1,0 +1,1 @@
+@a = ();print "元素數：";print $#a + 1 . "\n";@a[5] = 10;print "元素數：";print $#a + 1 . "\n";@a = (1, 2, 3);print "元素數：";print $#a + 1 . "\n";

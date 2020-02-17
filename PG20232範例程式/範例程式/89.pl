@@ -1,0 +1,1 @@
+$_ = "Let's study Perl!";$a = "Perl";if(/$a/){    print "²Å¦X¡C\n";}else{    print "¤£²Å¦X¡C\n";}

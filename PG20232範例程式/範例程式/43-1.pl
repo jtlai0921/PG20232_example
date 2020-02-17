@@ -1,0 +1,1 @@
+%pet = ("kind" => "Cat", "name" => "«}«}");$pet{"name"} = "¤p¥Õ";$a = "kind";print "$pet{$a}\n";print "$pet{'name'}";

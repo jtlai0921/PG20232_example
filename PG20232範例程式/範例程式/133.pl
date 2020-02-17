@@ -1,0 +1,1 @@
+open(FILE, "<abc.txt") || die "Error!\n";@data = <FILE>;$i = 1;foreach(@data){    printf("%3d:", $i);    print;    $i++;}close(FILE);

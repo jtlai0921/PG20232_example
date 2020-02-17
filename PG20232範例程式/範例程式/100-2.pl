@@ -1,0 +1,1 @@
+@strs = ("171-0022", "0000000", "1710031", "1234567890");$i = 0;foreach(@strs){    $a = $_;    if(s/^(\d{3})(\d{4})$/\1-\2/){        print "$a¸m´«¦¨$_¡C\n";    }    if(/^\d{3}-\d{4}$/){        $postcodes[$i] = $_;        $i++;    }}if($i > 0){    print "\n¶l»¼°Ï¸¹\n";    foreach(@postcodes){        print $_ . "\n";    }}

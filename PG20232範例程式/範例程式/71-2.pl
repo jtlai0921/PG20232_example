@@ -1,0 +1,1 @@
+for($a = 1; $a <= 9; $a++){    for($b = 1; $b <= 9; $b++){        $x = $a * $b;        if($x < 10){            print " ";        }        if($a == 5){            last;        }        print " $x";    }    print "\n";}

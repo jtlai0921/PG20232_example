@@ -1,0 +1,1 @@
+$a = 10;$b = 20;print '$a = ' . $a . ', $b = ' . "$b\n";print '$a < $b ¡G ' . ($a < $b) . "\n";print '$a > $b ¡G ' . ($a > $b) . "\n";print '$a == $b ¡G ' . ($a == $b) . "\n";print '$a <=> $b ¡G ' . ($a <=> $b) . "\n";print '$a = $b ¡G ' . ($a = $b) . "\n";

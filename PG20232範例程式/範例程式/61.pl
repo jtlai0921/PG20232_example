@@ -1,0 +1,1 @@
+$a = 90;if($a > 80){    if($a == 100){        print "滿分。\n";    }else{        print "再加油一點點。\n";    }}else{    print "成功了。\n";}

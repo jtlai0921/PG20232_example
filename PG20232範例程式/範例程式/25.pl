@@ -1,0 +1,1 @@
+$a = "10abc";print '$a = ' . $a . "\n";print '$a cmp "10" ¡G ' . ($a cmp "10") . "\n";print '$a cmp "10abc" ¡G ' . ($a cmp "10abc") . "\n";print '$a cmp "10abd" ¡G ' . ($a cmp "10abd") . "\n";print '$a == 1 ¡G ' . ($a == 1) . "\n";print '$a == 10 ¡G ' . ($a == 10) . "\n";print '"abc" == 0 ¡G ' . ("abc" == 0) . "\n";

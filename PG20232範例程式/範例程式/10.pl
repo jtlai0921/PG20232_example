@@ -1,0 +1,1 @@
+$a = "¿ß­¹";print "\n$a\n";print '\n$a';

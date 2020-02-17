@@ -1,0 +1,1 @@
+$_ = "abcdefg";if(/ABC/i){    print "$&²Å¦X¡C\n";}else{    print "¤£²Å¦X¡C\n";}

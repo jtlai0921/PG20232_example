@@ -1,0 +1,1 @@
+$book = "Perl學習繪本";@book = ("C學習繪本", "JAVA學習繪本");%book = ("SQL" => "SQL學習繪本");*all = *book;print $all . "\n";print $all[0] . "\n";print $all{"SQL"} . "\n";

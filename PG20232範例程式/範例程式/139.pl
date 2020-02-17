@@ -1,0 +1,1 @@
+$filename = "bintest.dat";for($i = 0; $i < 10; $i++){   $buf_w[$i] = ($i + 1) * 10;}open(FILE, ">" . $filename) || die "Error!\n";binmode(FILE);foreach(@buf_w){   print FILE $_ . " ";}close(FILE);open(FILE, "<" . $filename) || die "Error!\n";binmode(FILE);$buf_r = <FILE>;close(FILE);print $buf_r;

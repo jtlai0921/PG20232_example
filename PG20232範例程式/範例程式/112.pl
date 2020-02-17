@@ -1,0 +1,1 @@
+sub dispparam{    if($_[0] != ""){        print "把计$_[0]\n";    }else{        print "⊿Τ把计\n";    }}$a = 10;&dispparam(5);&dispparam($a);&dispparam();

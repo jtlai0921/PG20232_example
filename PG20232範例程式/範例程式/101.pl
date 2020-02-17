@@ -1,0 +1,1 @@
+$_ = "monday. tuesday. wednesday.";print "變更前：\n" . $_  . "\n\n";if(@weeks = /[^ ]+?\./g){    print "變更後：\n";    foreach(@weeks){        s/(^.)/\U\1\E/;        print "" . $_ . "\n";    }}else{    print "字串無改變。\n";}

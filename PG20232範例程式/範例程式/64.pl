@@ -1,0 +1,1 @@
+@season = ("¬K", "®L", "¬î", "¥V");foreach $a(@season){    print "$a\n";}

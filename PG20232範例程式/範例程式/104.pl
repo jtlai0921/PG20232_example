@@ -1,0 +1,1 @@
+$_ = "20 + 30 = 50";$numcount = 0;print "搜尋對象資料：$_\n";print "搜尋數值。\n";print "\n***搜尋結果***\n";while(/\d+/g){   print "$&\n";   $numcount++;}if($numcount){   print "有$numcount個數值。\n";}else{   print "無數值。\n";}

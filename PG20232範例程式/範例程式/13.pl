@@ -1,0 +1,1 @@
+$a = 10;$b = 3.24;printf("%10d\n", $a);printf("กั%9f\n", $b);printf("-" x 10 . "\n");printf("%10f\n", $a * $b);

@@ -1,0 +1,1 @@
+if($ARGV[0] ne ""){   if(-e $ARGV[0]){      while(<>){         print;      }   }}else{   print "沒有指令列參數。\n";}

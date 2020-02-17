@@ -1,0 +1,1 @@
+package pack1;$str = "package1";sub calc{    $a = $_[0] + $_[1];    print "$_[0] + $_[1] = $a\n";}package pack2;$str = "package2";sub calc{    $a = $_[0] - $_[1];    print "$_[0] - $_[1] = $a\n";}package pack3;$str = "package3";print "$str\n";print "$pack1::str\n";print "$pack2::str\n";&pack1::calc(7, 3);&pack2::calc(7, 3);

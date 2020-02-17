@@ -1,0 +1,1 @@
+$_ = "a\nb\nc";if(/^a.b/s){    print "$&²Å¦X¡C\n";}else{    print "¤£²Å¦X¡C\n";}

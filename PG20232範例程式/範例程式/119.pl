@@ -1,0 +1,1 @@
+sub func1(){    local $y;    my $z;    &func2();        $x += 10; $y += 10; $z += 10;    print "\$x = $x, \$y = $y, \$z = $z\n";}sub func2(){    my $z;    $x += 10; $y += 10; $z += 10;    print "\$x = $x, \$y = $y, \$z = $z\n";}$x = $y = $z = 0;print "\$x = $x, \$y = $y, \$z = $z\n";&func1();print "\$x = $x, \$y = $y, \$z = $z\n";

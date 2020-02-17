@@ -1,0 +1,1 @@
+$i = 1;while($i < 4){    print "$i\n";    $i = $i + 1;}continue{    print "$i\n";    $i = $i + 1;}

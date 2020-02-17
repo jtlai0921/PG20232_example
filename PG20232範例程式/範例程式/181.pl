@@ -1,0 +1,1 @@
+@a = ("shiro", "chibi", "alex", "sham");print join(" ", @a);@a = sort @a;print "\n\n重新排列\n";print join(" ", @a);@a = reverse @a;print "\n\n反向重新排列\n";print join(" ", @a);@a = grep /^s.*/, @a;print "\n\n取出以「s」為開始的元素\n";print join(" ", @a);

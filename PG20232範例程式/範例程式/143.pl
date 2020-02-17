@@ -1,0 +1,1 @@
+$str = <STDIN>;print STDOUT $str;print STDERR "Error!\n";

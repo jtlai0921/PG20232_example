@@ -1,0 +1,1 @@
+$_ = "Hello\nWorld!";if(/^World/m){    print "$&²Å¦X¡C\n";}else{    print "¤£²Å¦X¡C\n";}

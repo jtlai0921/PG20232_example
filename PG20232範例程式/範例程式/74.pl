@@ -1,0 +1,1 @@
+@a = (210, 19, 72, 129, 34);foreach(@a){    print "$_ ";}print "\n";for($j = 0; $j < @a-1; $j++){    for($i = $j+1; $i < @a; $i++){        if($a[$j] > $a[$i]){            $k = $a[$j];            $a[$j] = $a[$i];            $a[$i] = $k;        }    }}print "\n�Ѥp�̧ǱƦC\n\n";foreach(@a){    print "$_ ";}

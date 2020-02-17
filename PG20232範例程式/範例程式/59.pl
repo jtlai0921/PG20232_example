@@ -1,0 +1,1 @@
+$s = 65;print "你的平均分數是$s分。\n";if($s < 70){    print "離平均還差" . (70 - $s) . "分\n";    print "加油吧！\n";}unless($s < 70){    print "做得好！\n";}

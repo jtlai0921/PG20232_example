@@ -1,0 +1,1 @@
+$a = $b = 4;print "\$a = ";print $a;print ", \$b = ";print $b;print "\n";$a = 5;print "\$a = ";print $a;print ", \$b = ";print $b;print "\n";

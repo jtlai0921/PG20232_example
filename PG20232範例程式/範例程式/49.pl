@@ -1,0 +1,1 @@
+$num = 1000;@nums = (2, 4, 6);$refnum = \$num;$refnums = \@nums;print "參照指示的值是$$refnum\n";print "\n參照指示的陣列元素\n";print "[0] ‧‧‧$$refnums[0]\n";print "[1] ‧‧‧$$refnums[1]\n";print "[2] ‧‧‧$$refnums[2]\n";

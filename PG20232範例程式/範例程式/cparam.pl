@@ -1,0 +1,1 @@
+if(@ARGV > 0){    for($i=0; $i<@ARGV; $i++){        print "\$ARGV[$i]:$ARGV[$i]\n";    }}else{    print "沒有指令列參數。\n";}

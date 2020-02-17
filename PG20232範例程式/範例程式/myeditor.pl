@@ -1,0 +1,1 @@
+if($ARGV[0] ne ""){    open(FILE, ">" . $ARGV[0]) || die "Error!\n";    print "請輸入資料。(結束：0) \n";    $i = 1;    printf("%3d:", $i++);    while(<STDIN>){        if($_ eq "0\n"){            last;        }        printf("%3d:", $i++);        print FILE;    }        print "結束。\n";    close(FILE);}else{    print "沒有指令列參數。\n";}

@@ -1,0 +1,1 @@
+$filename = "math.txt";if(-e $filename){    $filesize = -s $filename;    print "$filename的檔案大小為$filesize byte。\n";}else{    print "沒有$filename。\n";}

@@ -1,0 +1,1 @@
+sub addnum{    $x = $_[0] + $_[1];    return $x;}$a = 2;$b = 3;$c = &addnum($a, $b);print "$a + $b = $c";

@@ -1,0 +1,1 @@
+($sec, $min, $hour, $mday, $mon, $year, $wday) = localtime(time);$year += 1900;$mon += 1;@week = ("§È", "§@", "§G", "§T", "•|", "§≠", "§ª");print "timeÅF" . time . "\n";print "$year¶~";print "$mon§Î";print "$mday§È";print "($week[$wday])";print " $hour";print ":$min";print ":$sec\n";

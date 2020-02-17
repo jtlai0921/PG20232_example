@@ -1,0 +1,1 @@
+foreach(A..F){    print "¤å¦r¡G$_ ¤å¦r½X¡G" . ord($_);    print "\n";}

@@ -1,0 +1,1 @@
+$h = "H";$e = "E";$l = "L";$o = "O";print $h . $e . $l . $l . $o;print "\n";print $h . $e . $l x 2 . $o . " WORLD!";

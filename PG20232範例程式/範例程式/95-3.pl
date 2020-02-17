@@ -1,0 +1,1 @@
+$_ = "abcdefg";if(/^a b cd/x){    print "$&²Å¦X¡C\n";}else{    print "¤£²Å¦X¡C\n";}

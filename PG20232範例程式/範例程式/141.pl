@@ -1,0 +1,1 @@
+$filename[0] = "file1.txt";$filename[1] = "file2.txt";open(FILE, ">" . $filename[0]) || die "Error!\n";close(FILE);if(rename($filename[0], $filename[1])){    print "檔名已變更。\n";}foreach(@filename){    if(-e $_){        if(unlink($_)){            print "$_已刪除。\n";        }    }else{        print "$_已不存在。\n";    }}

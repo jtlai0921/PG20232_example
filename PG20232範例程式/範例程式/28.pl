@@ -1,0 +1,1 @@
+$a = 10;$a == 5 ? print "為5。\n" : print "不為5。\n";$a == 10 ? print "為10。\n" : print "不為10。\n";

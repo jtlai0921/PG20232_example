@@ -1,0 +1,1 @@
+use Pack;print "$Hellopack::say\n";print "$Byepack::say\n";

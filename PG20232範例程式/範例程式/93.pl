@@ -1,0 +1,1 @@
+%persons = (    "taro" => "I am 20 years old.",    "jiro" => "I am 15 years old.");if($persons{"taro"} =~ /\d+/){    print "taro先生" . $& . "歲\n";}if($persons{"jiro"} =~ /\d+/){    print "jiro先生" . $& . "歲\n";}

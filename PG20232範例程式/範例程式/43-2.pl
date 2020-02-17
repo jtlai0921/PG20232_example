@@ -1,0 +1,1 @@
+@book = ("新C學習繪本", "新JAVA學習繪本", "新Perl學習繪本");%bookdata = (    $book[0] => 280,    $book[1] => 320,    $book[2] => "未定");print "書籍名稱\t\t價格\n";print "$book[0]\t\t$bookdata{$book[0]}\n";print "$book[1]\t\t$bookdata{$book[1]}\n";print "$book[2]\t\t$bookdata{$book[2]}\n";

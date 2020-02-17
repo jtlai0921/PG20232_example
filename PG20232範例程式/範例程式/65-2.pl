@@ -1,0 +1,1 @@
+@a = (1..9);foreach $j(@a){    foreach $i(@a){        $x = $j * $i;        if($x < 10){            print " ";        }        print " $x";    }    print "\n";}

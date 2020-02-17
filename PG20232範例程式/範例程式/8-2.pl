@@ -1,0 +1,1 @@
+$a = 2;$b = 3;print "對變數\$a把\$b代入\n";$a = $b;print "\$a = ";print $a;print ", \$b = ";print $b;print "\n";
